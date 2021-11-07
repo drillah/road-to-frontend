@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: darkcyan;
+            margin: 100px auto;
+            color: white;
+            font-size: 30px;
+            font-family: arial;
+            /* Padding i border w rect1 ukazuje czym różni się border-box od content-box */
+            padding: 20px;
+            border: 10px solid orange;
+        }
+
+        .rect1 {
+            box-sizing: border-box;
+        }
+
+        .rect2 {}
+    </style>
+</head>
+
+<body>
+    <div class="rect1">Content 1</div>
+    <div class="rect2">Content 2</div>
+</body>
+
+</html>
