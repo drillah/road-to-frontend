@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: grey;
+    /* overflow: hidden; */
+}
+
+.item1 {
+    width: 20%;
+    height: 30px;
+    background-color: royalblue;
+    float: left;
+    border-radius: 15px 0 0 15px;
+    margin-left: 5%;
+}
+
+.item2 {
+    float: left;
+    width: 70%;
+    height: 30px;
+    background-color: darkolivegreen;
+    border-radius: 0 15px 15px 0;
+}
+
