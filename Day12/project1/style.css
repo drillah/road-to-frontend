@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header */
+
+header div {
+    width: 20%;
+    margin: 2.5%;
+    height: 200px;
+    background-color: royalblue;
+    float: left;
+}
+
+header div:nth-child(1) {
+    background-color: greenyellow;
+}
+
+header div:nth-child(1):hover {
+    background-color: rgb(90, 133, 27);
+}
+
+header div:nth-child(2) {
+    background-color: skyblue;
+}
+
+header div:nth-child(2):hover {
+    background-color: rgb(27, 100, 133);
+}
+
+header div:nth-child(3) {
+    background-color: blueviolet;
+}
+
+header div:nth-child(3):hover {
+    background-color: rgb(86, 12, 109);
+}
+
+header div:nth-child(4) {
+    background-color: gold;
+}
+
+header div:nth-child(4):hover {
+    background-color: rgb(139, 141, 10);
+}
+
+
+/* navigation */
+
+nav {
+    background-color: black;
+    height: 50px;
+}
