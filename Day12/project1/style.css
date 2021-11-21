@@ -68,6 +68,8 @@ nav {
 
 nav ul {
     list-style: none;
+    max-width: 1024px;
+    
 }
 
 nav ul li {
@@ -116,13 +118,43 @@ article p {
     margin-top: 20px;
 }
 
+/* aside */
+
 aside {
-    width: 35%;
-    height: 200px;
-    background-color: darkgreen;
+    width: 30%;
     float: left;
 }
 
+section.contact {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+.contact p {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.contact ul {
+    list-style: none;
+    
+}
+
+.contact li {
+    margin: 15px 0;
+}
+
+.contact li i {
+    margin-right: 25px;
+}
+
+.contact li:nth-child(2) {
+    padding-left: 2px;
+}
+
+.contact li i.fa-mobile-alt {
+    padding-right: 9px;
+}
 /* footer */
 
 footer {
